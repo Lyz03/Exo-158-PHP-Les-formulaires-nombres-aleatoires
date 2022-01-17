@@ -9,3 +9,32 @@
 
 http://php.net/manual/fr/function.mt-rand.php
 */
+?>
+
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exo 158</title>
+</head>
+<body>
+
+<form action="/script.php" method="post">
+    <div>
+        <label for="x">x</label>
+        <input id="x" type="number" name="x">
+    </div>
+    <div>
+        <label for="y">y</label>
+        <input id="y" type="number" name="y">
+    </div>
+    <div>
+        <input type="submit" name="submit">
+    </div>
+</form>
+
+</body>
+</html>
